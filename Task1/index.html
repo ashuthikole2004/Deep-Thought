@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Thought</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <Nav class="nav">
+            <div class="nav-part1">
+                <img src="assets/logo.svg" alt="logo">
+            </div>
+            <div class="nav-part2">
+                <img src="assets/home.png" alt="home" height="30px">
+                <img src="assets/lock.png" alt="lock" height="30px">
+                <img src="assets/bell.png" alt="bell" height="30px">
+                <img src="assets/girl.png" alt="girl" height="30px">
+                <img src="assets/three dot.png" alt="three dot" height="30px">
+            </div>
+        </Nav>
+        <main class="main-content">
+            <div>
+                <div class="slider">
+                    <div class="block-slider-nav">
+                        <img src="assets/arrowslider.jpg" class="open" alt="exclamation" class="arrow" onclick="openNav()" height="35px">
+                    </div> 
+                </div>
+                <div class="slider-open hide">
+                    <div class="block-slider-nav">
+                        <img src="assets/close.png" alt="exclamation" class="arrow" onclick="closeNav()" height="35px">
+                    </div> 
+                    <ul class="nav-content">
+                        <li class="nav-content-part1"><b>Explore the world of management</b></li><br>
+                        <li class="nav-content-part2">Technical Project Management</li>
+                        <li class="nav-content-part2">Threadbuild</li>
+                        <li class="nav-content-part2">Structure your pointers</li>
+                        <li class="nav-content-part2">4SA Method</li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div>
+                <div class="content">
+                    <p class="tech">Technical Project Management</p>
+                    <button class="btn">Submit task</button>
+                </div>
+    
+                <div class="explore">
+                    <p><b>Explore the world of management</b></p>
+                    <p>As a project manager, you play an important reole in leading a project through initiation, planning,
+                        execution, monitoring, controlling and completion. How? Do you want to manage each and every step of
+                        your life?</p>
+                </div>
+    
+                <div class="blocks">
+                    <div class="tech-project-manage">
+                        <div class="block-nav">
+                            <p class="block-text">Technical Project Management</p>
+                            <img src="assets/exclamation.jpg" alt="exclamation" height="35px">
+                        </div>
+                        <div class="block-content">
+                            <p class="text"><b>Description:</b> Story of Alignment Scope of Agility Specific Accountable
+                                Staggering Approach</p>
+                            <img src="assets/tech-pr.jpg" alt="tech-pr" width="100%" height="310px">
+                        </div>
+                    </div>
+    
+                    <div class="tech-project-manage">
+                        <div class="block-nav">
+                            <p class="block-text">Threadbuild</p>
+                            <img src="assets/exclamation.jpg" alt="exclamation" height="35px">
+                        </div>
+                        <div class="block-content">
+                            <p class="text"><b>Description:</b> Watch the video and threadbuild, and jot out key threads
+                                while watching the video</p>
+                            <p class="thread"><span><img src="assets/arrow.png" alt="arrow" height="15px"
+                                        width="30px"></span><b class="thread-part2">Thread A</b></p>
+                        </div>
+                        <div class="thread-blocks">
+                            <div class="textareapart1">
+                                <p class="thread-text">Sub thread 1</p>
+                                <textarea name="txt" id="txt" placeholder="Enter text here"></textarea>
+                            </div>
+                            <div class="textareapart1">
+                                <p class="thread-text">Sub Interpretation 1</p>
+                                <textarea name="txt" id="txt" placeholder="Enter text here"></textarea>
+                            </div>
+                        </div>
+                        <div class="thread-select">
+                            <img width="25px" height="25px" src="assets/bulb.png" alt="bulb" class="img-thread-1">
+                            <img width="25px" height="25px" src="assets/msg.png" alt="message" class="img-thread-2">
+                            <img width="25px" height="25px" src="assets/question.png" alt="question" class="img-thread-3">
+                            <img width="25px" height="25px" src="assets/diya.png" alt="diya" class="img-thread-4">
+                            <select name="select-category" id="select">
+                                <option value="Select Categ">Select Categ</option>
+                            </select>
+                            <select name="select-process" id="select">
+                                <option value="Select Proces">Select Proces</option>
+                            </select>
+                        </div>
+                        <div class="btn-container">
+                            <button class="btn">+ Sub-thread</button>
+                        </div>
+                        <div class="alone-text-area">
+                            <div class="text-area">
+                                <p class="thread-text">Summary for Thread A</p>
+                                <textarea name="txt" id="txt" placeholder="Enter text here"></textarea>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="tech-project-manage">
+                        <div class="block-nav">
+                            <p class="block-text">Structure your Pointers</p>
+                            <img src="assets/exclamation.jpg" alt="exclamation" height="35px">
+                        </div>
+                        <div class="block-content">
+                            <p class="text"><b>Description:</b> Write a 300 - 400 word article from your thread . Publish
+                                your understanding and showcase your understanding to the entire world </p>
+                        </div>
+    
+                        <div class="form">
+                            <div class="title">
+                                <p>Title</p>
+                                <input class="title-txt" type="text">
+                            </div>
+                            <div class="title">
+                                <p>Content</p>
+                                <div class="content-text-area">
+                                    <div class="content-menu">
+                                        <p>File</p>
+                                        <p>Edit</p>
+                                        <p>View</p>
+                                        <p>Insert</p>
+                                        <p>Format</p>
+                                        <p>Tools</p>
+                                        <p>Table</p>
+                                        <p>Help</p>
+                                    </div>
+                                    <textarea name="text-content" id="txt1"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="tech-project-manage">
+                        <div class="block-nav">
+                            <p class="block-text">4SA Method</p>
+                            <img src="assets/exclamation.jpg" alt="exclamation" height="35px">
+                        </div>
+                        <div class="block-content">
+                            <p class="text"><b>Description:</b> To Explore more read more </p>
+                            <p class="introduction"><span><img src="assets/arrow.png" alt="arrow" height="15px"
+                                        width="30px"></span><b class="thread-part2">Introduction</b></p>
+    
+                            <p class="intro-text">The 4SA Method , How to bring a idea into progress ?</p>
+                            <p class="intro-see-more">See More</p>
+                            <p class="introduction"><span><img src="assets/arrow.png" alt="arrow" height="15px"
+                                        width="30px"></span><b class="thread-part2">Thread A</b></p>
+                            <p class="intro-text">How are you going to develop your stratergy ? Which method are you going
+                                to use to develop a stratergy ? What if the project is lengthy?</p>
+                            <p class="intro-see-more">See More</p>
+    
+                            <p class="introduction"><b class="thread-part2">Example 1</b></p>
+                            <p class="intro-text">You have a concept , How will you put into progress?</p>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+            <div>
+                <div class="slider1">
+                    <div class="slider-vertical"><p>X</p>
+                        <p>N</p>
+                        <p>o</p>
+                        <p>t</p>
+                        <p>i</p>
+                        <p>c</p>
+                        <p>e</p>
+                        <p>B</p>
+                        <p>o</p>
+                        <p>a</p>
+                        <p>a</p>
+                        <p>r</p>
+                        <p>d</p>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+        </main>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
